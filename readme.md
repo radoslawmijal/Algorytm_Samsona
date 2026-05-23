@@ -39,4 +39,4 @@ Do poprawnego uruchomienia symulacji wymagane jest posiadanie:
 1. Uruchom program MATLAB i ustaw bieżący folder roboczy (Current Folder) na katalog główny tego projektu.
 2. Wczytaj parametry startowe, uruchamiając skrypt konfiguracyjny w oknie komend:
    ```matlab
-   monocykl_trajektoria_samson_setup
+   samson_278334.m
