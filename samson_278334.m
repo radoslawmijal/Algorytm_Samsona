@@ -1,6 +1,7 @@
 clear;
 clc;
 
+% const ----------------
 Rk = 0.075;
 L = 0.3;
 d = 0;
@@ -16,13 +17,15 @@ Rd = 2;
 wd = pi/6;
 vd = wd*Rd;
 
-k1 = 1; 
-k2 = 1; 
-Kd = 10;
+% modyfikowalne ---------
+k1      = 1; 
+k2      = 1; 
+Kd      = 10;
 
-xd0 = 1;
-yd0 = 2;
+xd0     = 5;
+yd0     = -3;
 thetad0 = 0;
 
-q0 = [0; 0; 0; 0; 0];
+%     x  y  theta  phi1  phi2
+q0 = [0; 0;   0;    0;    0];
 
